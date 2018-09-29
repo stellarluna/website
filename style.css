@@ -1,0 +1,29 @@
+.banner {
+  background-color: #0f71a5;
+}
+.sidebar {
+  background-color: #414141;
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  padding-top: 20px;
+  top: 0;
+}
+.sidebar li a {
+  text-decoration: none;
+}
+.sidebar ul li:hover {
+  background-color: #ffffff;
+}
+.sidebar a .sidebar-nav-text h3 {
+  color: #c864a2;
+  font-size: 30px;
+}
+.sidebar a .sidebar-nav-text p {
+  color: #c864a2;
+  font-size: 14px;
+}
+.main {
+  margin-left: 160px;
+}
