@@ -8,7 +8,7 @@ body {
 .banner {
   background-color: #0f71a5;
 }
-.sidebar {
+.sidebar-container {
   align-items: center;
   background-color: #414141;
   display: flex;
@@ -20,29 +20,29 @@ body {
   /* padding-top: 20px; */
   top: 0;
 }
-.sidebar ul {
+.sidebar-list {
   /* display: flex; */
   list-style: none;
   /* align-items: center; */
 }
-.sidebar li {
+.sidebar-list-item {
   flex-grow: 2;
   /* margin: 10px; */
   /* padding: 5px; */
 
 }
-.sidebar li a {
+.sidebar-container li a {
   text-decoration: none;
 }
-.sidebar ul li:hover {
+.sidebar-container ul li:hover {
   background-color: #ffffff;
 }
-.sidebar a .sidebar-nav-text h3 {
+.sidebar-container a .sidebar-nav-text h3 {
   color: #c864a2;
   font-size: 30px;
 
 }
-.sidebar a .sidebar-nav-text p {
+.sidebar-container a .sidebar-nav-text p {
   color: #c864a2;
   font-size: 14px;
 
