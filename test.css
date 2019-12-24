@@ -23,17 +23,21 @@ a {
   flex: 1;
   flex-direction: column;
   justify-content: center;
-  height: 100%
+  /* height: 100%; */
 }
 .sidebar-list-item {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   height: 100%;
 }
 .sidebar-list-item:hover {
   background-color: #ffffff;
 }
 .sidebar-nav-text {
+  display: flex;
   color: #c864a2;
+  flex-direction: column;  
 }
 .content-container {
   flex: 4;
