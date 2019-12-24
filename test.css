@@ -37,9 +37,10 @@ a {
 .sidebar-nav-text {
   display: flex;
   color: #c864a2;
-  flex-direction: column;  
+  flex-direction: column;
 }
 .content-container {
   flex: 4;
   height: 100%;
+  overflow-y: auto;
 }
