@@ -3,6 +3,12 @@
   margin: 0;
   padding: 0;
 }
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+}
 a {
   text-decoration: none;
 }
@@ -17,10 +23,11 @@ a {
   flex: 1;
   flex-direction: column;
   justify-content: center;
-  /* height: 100%; */
+  height: 100%
 }
 .sidebar-list-item {
   display: flex;
+  height: 100%;
 }
 .sidebar-list-item:hover {
   background-color: #ffffff;
@@ -30,4 +37,5 @@ a {
 }
 .content-container {
   flex: 4;
+  height: 100%;
 }
