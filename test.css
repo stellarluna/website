@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+.sidebar-container {
+  background-color: #414141;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  /* height: 100%; */
+}
+.sidebar-list-item {
+  display: flex;
+}
+.sidebar-list-item:hover {
+  background-color: #ffffff;
+}
+.sidebar-nav-text {
+  color: #c864a2;
+}
+.content-container {
+  flex: 4;
+}
